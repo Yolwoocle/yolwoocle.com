@@ -21,7 +21,7 @@
     </div>
     <script>
       (async ()=>{
-        const drawings = await fetch('https://cdn.imm.codes/to_yol/drawings/drawings.json')
+        const drawings = await (await fetch('https://cdn.imm.codes/to_yol/drawings/drawings.json')).json()
         for(let drawing of drawings){
           const content=document.createElement('a')
           const image=document.createElement('img')

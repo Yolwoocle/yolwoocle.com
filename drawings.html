@@ -16,6 +16,29 @@
     
     <div class="content">
       <h1>Drawings</h1>
+      <div class="content" id="drawings">
+      </div>
     </div>
+    <script>
+      (async ()=>{
+        const drawings = await (await fetch('https://cdn.imm.codes/to_yol/drawings/drawings.json')).json()
+        for(let drawing of drawings){
+          const content=document.createElement('a')
+          const image=document.createElement('img')
+          const txtCont=document.createElement('div')
+          const actualText=document.createElement('h2')
+          actualText.innerText=drawing.title
+          txtCont.classList.add('textContainer')
+          actualText.classList.add('projectsText')
+          txtCont.appendChild(actualText)
+          image.classList.add('coverImage')
+          image.src=drawing.src         
+          content.classList.add('projects')
+          content.appendChild(image)
+          content.appendChild(actualText)
+          document.getElementById('drawings').appendChild(content)
+        }
+      })()
+    </script>
   </body>
 </html>

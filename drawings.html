@@ -16,15 +16,20 @@
     
     <div class="content">
       <h1>Drawings</h1>
-      <div class="lookdisup_info" id="drawings">
+      <div class="content" id="drawings">
       </div>
     </div>
     <script>
       (async ()=>{
-        const drawings = await fetch('https://cdn.imm.codes/spot-on/drawings')
+        const drawings = await fetch('https://cdn.imm.codes/to_yol/drawings/drawings.json')
         for(let drawing of drawings){
-          const appendToListOfContents=document.createElement('div')
-          appendToListOfContents.classList.add('lookdisup_info')
+          const content=document.createElement('a')
+          const image=document.createElement('img')
+          image.classList.add('coverImage')
+          image.src=drawing.src         
+          content.classList.add('projects')
+          content.appendChild(image)
+          document.getElementById('drawings').appendChild(content)
         }
       })()
     </script>

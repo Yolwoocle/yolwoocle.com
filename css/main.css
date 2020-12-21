@@ -14,17 +14,44 @@ body{
   padding: 0;
 }
 
+body { 
+  height: 100%
+}
+
 .header{
   width: 100%;
   display: flex;
-  position: fixed;
   top: 0px;
   align-items: center;
+  justify-content: space-between;  
   background: white;
   padding: 10px;
   padding-left: 100px;
   padding-right: 100px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.headerIcons{
+  display: flex;
+  align-content: center;
+  padding: 20px;
+}
+
+.headerLinksText{
+  padding: 20px;
+}
+
+.verticalLine{
+  outline: solid 1px gray;
+  height: 50px;
 }
 
 .logoContainer{
@@ -40,21 +67,25 @@ body{
 .logoText{
   font-size: 45px;
   padding-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  text-decoration: none;
+  color: black;
 }
 
 a{
   text-decoration: none;
-}
-
-a:visited{
   color: black;
 }
 
 .content{
   display:flex;
   justify-content: space-between;
-  height: 500px;
-  margin-top: 120px;
+  height: 470px;
+  margin-top: 30px;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -62,9 +93,8 @@ a:visited{
 .projects{
   box-shadow: 0px 1px 10px rgba(0, 0, 0, .5);
   position: relative;
-  width: 32%;
-  height: 100%;
-  max-width: 100%%;
+  width: 31%;
+  max-width: 100%;
   max-height: 100%;
   transition: all ease 0.2s;
 }
@@ -73,6 +103,7 @@ a:visited{
   height: 100%;
   width: 100%;
   object-fit: cover;
+  transition: all ease 0.1s;
 }
 
 .projectsText{
@@ -80,7 +111,6 @@ a:visited{
   position:absolute;
   bottom: 16px;
   left: 20px;
-  rgba(0, 0, 0, .5));
   transition: all ease 0.2s;
 }
 
@@ -107,7 +137,37 @@ a:visited{
 }
 
 .projects:hover .coverImage{
-  filter: brightness(70%);
+  filter: brightness(100%);
 }
 
+/**********************/
+
+.drawingContent{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.drawingsContainer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: space-between;
+}
+
+.drawingsColumn{
+  display: block;
+  overflow:unset;
+  width: 48%;
+  margin: 1%;
+  padding: 2%;
+  background-color: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, .5);
+}
+
+.drawing{
+  width: 100%;
+  margin-bottom: 20px;
+}
   

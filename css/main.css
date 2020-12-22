@@ -137,7 +137,7 @@ a{
 }
 
 .projects:hover .coverImage{
-  filter: brightness(100%);
+  filter: brightness(70%);
 }
 
 /**********************/
@@ -166,21 +166,32 @@ a{
   box-shadow: 0px 1px 10px rgba(0, 0, 0, .5);
 }
 
-.drawing{
+.drawingImage{
   width: 100%;
   margin-bottom: 20px;
+  position:static;
+  transition: all ease 0.2s;
 }
 
 .drawingCard{
-  position:relative;
+  position: relative;
+  transition: all ease 0.2s;
 }
 
-.drawingDesc{
-  width: 100%;
-  text-align: center;
-  align-self: center;
-  border-radius: 25px;
-  color: white;
-  background-color: hsl(0, 0%, 10%);
-  position: absolute;
+.drawingDescText{
+  color: rgba(0, 0, 0, 0);
+  position:absolute;
+  bottom: 16px;
+  left: 20px;
+  transition: all ease 0.2s;
+}
+
+.drawingCard:hover .drawingDescText{
+  font-size: 30px;
+  bottom: 35px;
+  color: rgb(255, 255, 255);
+}
+
+.drawingCard:hover .drawingImage{
+  filter: brightness(50%);
 }

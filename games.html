@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <link rel="stylesheet" type="text/css" href="css/main.css">
-
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/card.css">
+  <link rel="stylesheet" type="text/css" href="css/games.css">
+  
   <head>
     <title>Yolwoocle</title>
   </head>
@@ -9,13 +12,72 @@
   <body>
     <header class="header">
       <a class="logoContainer" href="index.html">
-        <img class="logo" src="images/CactusLogo.png">
+        <img class="logo" src="images/drawings/CactusLogo.png">
         <h1 class="logoText">Yolwoocle</h1>
       </a>
+
+      <div class="links">
+        <a href="mailto:leo.bernard2015@hotmail.com" class="headerIcons">
+          <img src="images/email2.svg" width=40px  class="headerImages">
+        </a>
+        <div class="verticalLine"></div>
+        <a href="aboutme.html">
+          <h2 class="headerLinksText"> About me</h2>
+        </a>
+      </div>
     </header>
-    
-    <div class="content">
-      <h1>Games</h1>
+
+    <center>
+      <div class="textContent">
+        <a href="games/picodinov1_1.html" class="cardImage">
+          <img class="cardImageBG" src="images/dinogame/dinogifusethis.gif">
+          <div class="cardImageDesc">
+            <h3>Click to play</h3>
+          </div>
+        </a>  
+
+        <div style="margin-top: 20px;">
+            <h1>Pico Dino</h1>
+            <h4>Reimagining Google Chrome's secret game</h4>
+            <div>—</div>
+            <p>
+              <b>Pico Dino</b> is what came out as I tried to make something simple, but as polished as possible.
+              I really like complexity that rises from simple things, like icons and puzzles (and even math), so I found it very 
+              fun trying to come up with a complex moveset from a very simple 2-button control scheme. I originally wanted to 
+              add different worlds, power-ups, more enemies, but at some point I had to make something I could actually finish. 
+              Nonetherless, I'm quite pleased with how it turned out.<br>
+              I sent my game by email to Edward Jung, one of the two creators of the original game, and he seemed to love it, which
+              made me very happy. 
+            </p>
+            <h2>Play it:</h2>
+            <a class="link" href="games/picodinov1_1.html">This site</a> · 
+            <a class="link" href="https://www.lexaloffle.com/bbs/?tid=40759">Pico-8 Forums</a> · 
+            <a class="link" href="https://yolwoocle.itch.io/pico-dino">itch.io</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="textContent">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XF79HG9XOaA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div style="margin-top: 20px;">
+          <h1>Chaser Of Dawn</h1>
+          <h4>A game about looping around a planet</h4>
+          <div>—</div>
+          <p>
+            <b>Chaser Of Dawn</b> is a game that was made for the Ludum Dare 47 game jam. <br>
+            We had 3 days to make a game based on the theme "Stuck in a loop", and we used the Pico-8 engine. The game was inspired by 
+            exoplanets that don't rotate and have a very big difference in temperature between their two sides. <br>
+            It was a lot of fun and we hope to do more games like this in the future!
+          </p>
+          <br>
+          <h2>Play it:</h2>
+          <br>
+          <a class="link" href="games/chaserofdawn.html">This site</a> · 
+          <a class="link" href="https://www.lexaloffle.com/bbs/?tid=40733">Pico-8 Forums</a> · 
+          <a class="link" href="https://yolwoocle.itch.io/chaser-of-dawn">itch.io</a>
+        </div>
+      </div>
     </div>
+    </center>
   </body>
 </html>

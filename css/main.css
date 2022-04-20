@@ -28,3 +28,9 @@ body {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, .5);
   align-self: center;
 }
+
+.pixelImg {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}

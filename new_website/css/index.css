@@ -178,8 +178,17 @@ a{
 /*
 position: relative;
 */
-.floating {
+.floatingLeft {
     position: absolute; 
-    top: -80px;
+    top: -140px;
+    left: -00px;
+}
+.floatingRight {
+    position: absolute; 
+    top: -140px;
     left: 200px;
+}
+.floatingDoodle {
+    /* filter: drop-shadow(7px 7px 0px #00000074); */
+    width: 150px;
 }

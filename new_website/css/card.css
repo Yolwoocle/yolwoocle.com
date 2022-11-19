@@ -1,0 +1,149 @@
+
+.cardGrid {
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: grid;
+    gap: 2rem;
+
+    /* outline: red 1px solid; */
+}
+@media (min-width: 600px) {
+    .cardGrid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+    .cardGrid { grid-template-columns: repeat(3, 1fr); }
+}
+.card {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    width: 16rem;
+    /* height: 12rem; */
+    padding-bottom: 2px;
+
+    position: relative;
+    top: 0;
+
+    box-shadow: 4px 8px #00000074;
+
+    border-width: 1rem;
+    border-radius: 1rem;
+
+    /* rotate: 0deg; */
+    transition: 
+        top ease 0.2s,
+        box-shadow ease 0.2s,
+        rotate ease 0.2s,
+        transform ease 0.2s;
+}
+
+.card:hover {
+    top: -6px;
+    box-shadow: 4px 16px #00000074;
+    transform: scale(1.03, 1.03);
+}
+
+.card:hover { rotate: 2deg; }
+/* .card:nth-child(10n+0):hover { rotate: -1.0850deg; }
+.card:nth-child(10n+1):hover { rotate: 1.8518deg; }
+.card:nth-child(10n+2):hover { rotate: -0.8396deg; }
+.card:nth-child(10n+3):hover { rotate: 0.42670deg; }
+.card:nth-child(10n+4):hover { rotate: -0.5247deg; }
+.card:nth-child(10n+5):hover { rotate: -2.633deg; }
+.card:nth-child(10n+6):hover { rotate: 0.5041deg; }
+.card:nth-child(10n+7):hover { rotate: 1.9107deg; }
+.card:nth-child(10n+8):hover { rotate: -0.4025deg; }
+.card:nth-child(10n+9):hover { rotate: 1.532deg; } */
+
+/* https://stackoverflow.com/questions/51447317/image-height-same-as-width */
+.cardImageContainer {
+    position: relative;
+    width: 100%;
+}
+.cardImageContainer::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; /* The padding depends on the width, not on the height, so with a padding-bottom of 100% you will get a square */
+}
+
+.cardImageContainer img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; /* Make the picture taking the size of it's parent */
+    object-position: center;
+    object-fit: cover;
+    
+    border-radius: 6px;
+
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cardViewerContainer {
+    position: fixed;
+
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+
+    align-items: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.cardViewerInterface {
+    outline: green 3px solid;
+
+    flex-direction: row;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cardViewer {
+    padding: 1em;
+    background-color: white;
+    border-radius: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.cardViewer img {
+    height: 70vmin;
+}
+
+.cardViewerButton {
+    /* position: absolute;  */
+    top: 0px;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+/* .cardViewerButton.left {
+    left: -80px;
+    margin-right: 40px;
+    /* transform: translate(20px, 0);
+}
+
+.cardViewerButton.right {
+    left: 100%;
+    transform: translate(20px, 0);
+} */

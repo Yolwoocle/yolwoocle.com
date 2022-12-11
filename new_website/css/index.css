@@ -1,8 +1,10 @@
 body{ 
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', 'Verdana', sans-serif;
     padding: 0px;
     margin: 0px;
     color: #265c42;
+
+    overflow: overlay;
     
     /* Thanks to https://stripesgenerator.com/ */
     background-position: 0px;
@@ -10,7 +12,19 @@ body{
     background-size: 181.02px 181.02px;
     
     animation: constantMovement 5s linear infinite;
+    /* font-weight: 800; */
 }
+
+b {
+    text-decoration: underline;
+}
+/* @font-face {
+	font-family: 'Nunito';
+	src: url('fonts/Nunito-VariableFont_wght.ttf') format('woff2') tech('variations'),
+	     url('fonts/Nunito-VariableFont_wght.ttf') format('woff2-variations');
+	font-weight: 100 1000;
+	font-stretch: 25% 151%;
+} */
   
 @keyframes constantMovement {
     0%{
@@ -44,6 +58,22 @@ a{
 img {
     max-width: 100%;
     max-height: 100%;
+}
+a {
+    /* text-decoration: underline; */
+    color: #b86f50;
+
+    position: relative;
+    top: -2px;
+    text-shadow: #00000074 0px 2px;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outline {
+    outline: red 1px solid;
 }
 
 .content {
@@ -87,15 +117,30 @@ img {
 .aboutMe{
     font-size: 30px;
     text-align: center;
-    width: 200px;
     padding: 5px;
+
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .socials {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: fit-content;
 }
+/* .socialsBottom {
+    width:70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .socialLink {
     margin: 10px;   
     border-radius: 50%;
@@ -235,4 +280,130 @@ position: relative;
 .floatingDoodle {
     /* filter: drop-shadow(7px 7px 0px #00000074); */
     width: 150px;
+}
+
+.contentContainer{
+    position: absolute;
+    
+    display: flex;
+    flex-direction: column;
+    
+    width: 100vw;
+
+	justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid red; */
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.contentBody{
+    display: flex;
+    
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2em;
+    
+    /* border: 2px solid rgb(16, 123, 78); */
+}
+
+.verticalPageContainer {
+    position: absolute;
+    
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+
+	justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid red; */
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.verticalPage {
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.block {
+    /* border: 2px solid red; */
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.speechBubble {
+    position: absolute;
+    display: flex;
+    
+    opacity: 0;
+
+    align-items: center;
+    text-align: center;
+
+    width: 100px;
+
+    padding: 8px;
+    background-color: #b86f50;
+    border-color: #a36246;
+    border-radius: 8px;
+
+    transform: translate(0, -124px);
+    box-shadow: 
+        #743f39 0px 3px,
+        #00000074 2px 0px;
+
+
+    transition: 
+        opacity ease 0.1s,
+        box-shadow ease 0.1s;
+}
+
+.discordSocialLink:hover > .speechBubble {
+    display: flex;
+    
+    opacity: 1;
+    box-shadow: 
+        #743f39 0px 3px,
+        #00000074 4px 9px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+    display: contents;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    min-width: 100px;
+    border: solid 6px rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    background-clip: content-box;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }

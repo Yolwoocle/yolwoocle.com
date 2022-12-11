@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Yolwoocle &middot; Games</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet"> -->
+    
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/games.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="icon" type="image/png" href="img/icon.png">
+</head>
+
+<body>
+    <div class="artContent">
+        <a href="index.html" class="h1link"><h1 class="title">Yolwoocle</h1></a>
+        <h2 class="subtitle">Games</h2>
+
+        <!-- This should be abstracted, there's 2 repetitions between art.html & games.html -->
+        <div class="cardGrid" id="cardGridId">
+            <!-- To be filled by the JS script -->
+        </div>        
+    </div>
+    
+    <div class="cardViewerContainer" id="cardViewerId">
+        
+        <div class="cardViewerInterface" id="cardViewerInterfaceId">
+            <div class="cardViewerButton left center" onclick="previousImage()">
+                <img src="img/icons/left.svg">
+            </div>
+            <div class="cardViewer paper">
+
+                <div class="quitButton cardViewerButton" onclick="closeImageViewer()">
+                    <img src="img/icons/quit.svg">
+                </div>
+                
+                <!-- <img src="./img/art/DoodleArtVertical.png"> -->
+                <img id="imageViewerImageId" src="./img/art/dino_sleeping17.gif">
+                <iframe id="imageViewerTrailerId" 
+                    width="560" height="315" src="https://www.youtube.com/embed/XF79HG9XOaA" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+                <!-- <img src="./img/art/pigeons_NOT_WATERMARKED_23-oct_V3.png"> -->
+                <h2 id="imageViewerTitleId">Title</h2>
+                <h3 id="imageViewerTaglineId">Tagline</h3>
+                <p id="imageViewerDescriptionId">Description</p>
+                <p id="imageViewerCounterId" style="color: gray">?/??</p>
+                
+            </div>
+            <div class="cardViewerButton right center " onclick="nextImage()">
+                <img src="img/icons/right.svg">
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/games.js"></script>
+</body>

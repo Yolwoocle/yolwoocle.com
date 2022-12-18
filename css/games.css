@@ -1,75 +1,76 @@
+body{ 
+    /* background-image: linear-gradient(135deg, #b55088 25%, #99477e 25%, #99477e 50%, #b55088 50%, #b55088 75%, #99477e 75%, #99477e 100%); */
+    background-image: linear-gradient(135deg, #9f83bd 25%, #c18bbd 25%, #c18bbd 50%, #9f83bd 50%, #9f83bd 75%, #c18bbd 75%, #c18bbd 100%);
+    background-size: 181.02px 181.02px;
+    /* background-image: linear-gradient(135deg, #a8cf6b 25%, #95c364 25%, #95c364 50%, #a8cf6b 50%, #a8cf6b 75%, #95c364 75%, #95c364 100%);
+    background-size: 64.02px 64.02px; */
 
-
-.content{
-  display: flex;
-  width: 70%;
-  justify-content: space-around;
-
-  background-color: white;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, .5);
-  align-self: center;
-  
-  height: 470px;
-  width: 80%;
-  padding: 20px;
-  margin-top: 30px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
-.cardImage{
-  widows: 50%;
+h1{
+    color: #3b223d;
+    text-align: center;
+    text-shadow: 
+        0px 2px 0px #231325,
+        0px 4px 0px #231325,
+        0px 6px 0px #231325,
+        0px 8px 0px #231325,
+        3px 11px 0px #00000074;
+        /* border: 2px solid red; */
+    
+    position: relative;
+    top: 0;
+    transition: 
+        top ease 0.2s,
+        text-shadow ease 0.2s;
+}
+a>h1:hover {
+    top: -2px;
+    text-shadow: 
+        0px 2px 0px #231325,
+        0px 5px 0px #231325,
+        0px 7px 0px #231325,
+        0px 10px 0px #231325,
+        5px 13px 0px #00000074;
+        /* border: 2px solid red; */
 }
 
-.projectsContent{
-  display:flex;
-  justify-content: space-between;
-  height: 470px;
-  width: 100%;
-  margin-top: 30px;
-  margin-left: 150px;
-  margin-right: 150px;
+h2{
+    color: #49244e;
 }
 
-.projectCard{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 1%;
-  padding: 2%;
-  background-color: white;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, .5);
+.artContent {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    align-items: center;
 }
 
-.projTitle{
-  margin-bottom: 20px;
+.drawingsGrid {
+    border: 1px solid red;
+    margin-top: 50px;
+    width: 70vw;
 }
 
-.projName{
-  font-size: 50px;
+.gamesContent {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    align-items: center;
 }
 
-.projPresentation{
-  width: 50%;
-  white-space: initial;
-  display: block;
-  margin-right: 30px;
-}
+.gamesCardGrid {
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: grid;
+    gap: 2rem;
 
-.projImageCard{
-  width: 50%;
-  position: relative;
+    /* outline: red 1px solid; */
 }
-
-.projImage{
-  height: 100%;
-  object-fit: cover;
+@media (min-width: 300px) {
+    .gamesCardGrid { grid-template-columns: repeat(2, 1fr); }
 }
-
-.projSubText{
-  color: gray;
-}
-
-.projectImageCard{
-  height:100%;
+@media (min-width: 600px) {
+    .gamesCardGrid { grid-template-columns: repeat(2, 1fr); }
 }

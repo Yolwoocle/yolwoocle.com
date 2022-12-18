@@ -1,50 +1,66 @@
 <!DOCTYPE html>
-<html>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/header.css">
-  <link rel="stylesheet" type="text/css" href="css/indexPage.css">
-  
-  <head>
+
+<head>
     <title>Yolwoocle</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <a class="logoContainer" href="index.html">
-        <img class="logo" src="images/drawings/cacti_sleep_bigger_pot_FINAL.png">
-        <h1 class="logoText">Yolwoocle</h1>
-      </a>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
 
-      <div class="links">
-        <a href="mailto:leo.bernard2015@hotmail.com" class="headerIcons">
-          <img src="images/email2.svg" width=40px  class="headerImages">
-        </a>
-        <div class="verticalLine"></div>
-        <a href="aboutme.html">
-          <h2 class="headerLinksText"> About me</h2>
-        </a>
-      </div>
-    </header>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" type="image/png" href="img/icon.png">
+</head>
 
+<body>
     <div class="content">
-      <a class="projects" href="drawings.html">
-        <img class="coverImage drawings" src="images/drawings/DoodleArtVertical.png">
-        <div class="textContainer">
-          <h2 class="projectsText">Art</h2>
+        <div class="titleContainer">
+            <h1 class="title">Yolwoocle</h1>
+            <h2 class="subtitle">Léo Bernard</h2>
+            
+            <div class="socials">
+                <a class="buttonThin socialLink" href="mailto:leo.bernard2015@hotmail.com">
+                    <img src="img/logo/beige/email-beige.svg" alt="email" class="socialImage">
+                </a>
+                <a class="buttonThin socialLink" href="https://github.com/yolwoocle">
+                    <img src="img/logo/beige/github-beige.svg" alt="github" class="socialImage">
+                </a>
+                <a class="buttonThin socialLink" href="https://yolwoocle.itch.io/">
+                    <img src="img/logo/beige/itchio-beige.svg" alt="itch.io" class="socialImage">
+                </a>
+                <a class="buttonThin socialLink" href="https://twitter.com/yolwoocle_">
+                    <img src="img/logo/beige/twitter-beige.svg" alt="twitter" class="socialImage">
+                </a>
+                <!-- <a class="buttonThin socialLink discordSocialLink" onclick="copyDiscord()">
+                    <div id="discordSocialLinkClickTarget"> </div>
+                    <img src="img/logo/beige/discord-beige.svg" alt="discord" class="socialImage">
+                    <div class="speechBubble" id="discordSpeechBubbleId">Click to copy</div>
+                </a> -->
+                <a class="buttonThin socialLink" href="https://www.lexaloffle.com/bbs/?uid=47064">
+                    <img src="img/logo/beige/pico8-beige.svg" alt="lexaloffle" class="socialImage">
+                </a>
+            </div>
+            
+            <a href="aboutme.html">
+                <h3 class="buttonThin aboutMe">About Me | Contact</h3>
+            </a>
         </div>
-      </a>
-      <a class="projects" href="games.html">
-        <img class="coverImage games" src="images/drawings/NESvoxelArt.jpg">
-        <div class="textContainer">
-          <h2 class="projectsText">Games</h2>
+
+        <div class="categoriesContainer">
+            <a class="buttonBig category" href="art.html">
+                <h3>Art</h3>
+                <!-- <img src="img/doodles/cactus.png" class="floatingLeft floatingDoodle"> -->
+            </a>
+            
+            <a class="buttonBig category" href="games.html">
+                <h3>Games</h3>
+                <!-- <img src="img/doodles/pigeon.png" class="floatingRight floatingDoodle"> -->
+            </a>
+            <!-- <h3>INCROYABLE</h3> -->
         </div>
-      </a>
-      <a class="projects" href="projects.html">
-        <img class="coverImage others" src="images/arduinoRPG.jpg">
-        <div class="textContainer">
-          <h2 class="projectsText">Projects</h2>
-        </div>
-      </a>
+        <a href="projects.html">
+            <h3 class="buttonBig aboutMe">Other projects</h3>
+        </a>
     </div>
-  </body>
-</html>
+    
+    <script src="./js/discordCopy.js"></script>
+</body>

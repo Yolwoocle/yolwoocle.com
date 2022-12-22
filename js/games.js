@@ -59,9 +59,26 @@ const cards = [
         },
     }, 
     {
+        title : "Octoboom",
+        tagline : "Ping, Pong, Boom",
+        description : `<b>Octoboom</b> is a game I made with friends for 
+        <a href="https://ldjam.com/events/ludum-dare/49">Ludum Dare 49</a> 
+        in the span of 3 days. <br>An accident has occurred in the mine and 
+        toxic gas is escaping! Flee! Your bomb is your weapon. Throw it on 
+        enemies, and catch it before it explodes. The longer you let it 
+        fly, the more points it’ll give you, but this is at your own risk.`,
+        thumbnail : "./img/games/octoboom/thumbnail.png",
+        preview : "./img/games/octoboom/screenshot2.png",
+        trailer : null, //"https://www.youtube.com/embed/jb6uOKTxTlc",
+        links : {
+            "itch.io": "https://yolwoocle.itch.io/octoboom",
+            "Ludum Dare 49 Submission": "https://ldjam.com/events/ludum-dare/49/octoboom",
+        },
+    }, 
+    {
         title : "Derailed!",
         tagline : "A co-op game about building tracks",
-        description : `<b>Derailed!</b> is yet another Pico-8 game I made to challenge myself. It's a co-op game where you need to communicate with a friend to bring a train to its station. It's a fan-made demake of Unrailed!. After I made some concept art for a PICO-8 demake of this game, I thought it would be fun to actually turn it into a real thing. I hope that you'll have fun playing it, and maybe you can grab a friend to try it out.<br><br><i>(The game is unfinished, but it's playable nonetherless. I don't plan to finish it.)</i>`,
+        description : `<b>Derailed!</b> is yet another PICO-8 game I made to challenge myself. It's a co-op game where you need to communicate with a friend to bring a train to its station. It's a fan-made demake of Unrailed!. After I made some concept art for a PICO-8 demake of this game, I thought it would be fun to actually turn it into a real thing. I hope that you'll have fun playing it, and maybe you can grab a friend to try it out.<br><br><i>(The game is unfinished, but it's playable nonetherless. I don't plan to finish it.)</i>`,
         thumbnail : "./img/games/derailed/pico-8_unrailed_concept_thumbnail.png",
         preview : "./img/games/derailed/pico-8_unrailed_concept_thumbnail_wide.png",
         trailer: null,
@@ -78,7 +95,7 @@ const cards = [
         preview : "./img/games/anchorsAndMiners/screennormal.png",
         trailer: null,
         links: {
-            "Ludum Dare Submission": "https://ldjam.com/events/ludum-dare/48/anchors-miners",
+            "Ludum Dare 48 Submission": "https://ldjam.com/events/ludum-dare/48/anchors-miners",
             "PICO-8 Forums": "https://www.lexaloffle.com/bbs/?tid=42661",
             "itch.io": "https://yolwoocle.itch.io/anchorsandminers",
         }
@@ -110,7 +127,7 @@ const cards = [
         preview : null,//"./img/games/chaserofdawn/chaserofdawn_1.png",
         trailer: "https://www.youtube.com/embed/XF79HG9XOaA",
         links: {
-            "Ludum Dare Submission": "https://ldjam.com/events/ludum-dare/47/chaser-of-dawn",
+            "Ludum Dare 47 Submission": "https://ldjam.com/events/ludum-dare/47/chaser-of-dawn",
             "PICO-8 Forums": "https://www.lexaloffle.com/bbs/?tid=40733",
             "itch.io": "https://yolwoocle.itch.io/chaser-of-dawn",
         }

@@ -19,6 +19,11 @@ let currentCardIndex = 0
 
 const cards = [
     {
+        imageURL : "./img/pictures/hxi2_sweat.png",
+        title : "HXi&sup2 hoodie",
+        description : "Artwork for a school hoodie",
+    },
+    {
         imageURL : "./img/art/sweat_taupins_v1.png",
         title : "Taupins",
         description : "Artwork for a school hoodie",
@@ -218,7 +223,7 @@ function updateImage() {
     let currentCard = cards[currentCardIndex]
 
     img.src = currentCard.imageURL
-    title.innerText = currentCard.title
+    title.innerHTML = currentCard.title
     description.innerHTML = currentCard.description
     counter.innerText = `${currentCardIndex + 1} / ${cards.length}`
 }

@@ -59,8 +59,28 @@ const cards = [
         },
     }, 
     {
+        title : "Minesweeper Royale",
+        tagline : "Minesweeper, but it's a battle royale.",
+        description : `<b>Minesweeper Royale</b> is what minesweeper would be like if it were
+        a battle royale game. Multiple players compete to be the fastest to complete the
+        same minesweeper board, or to be the last one alive. This game is complete with a chat
+        system and a display showing all the player boards. This was my first ever attempt 
+        at networking, using the L&Ouml;VE framework and luasocket. It was a project I made 
+        for school, hence it's not available on itch.io and I didn't advertize it. <br>The 
+        source code is available on GitHub, but the little documentation I have provided
+        is in French. During my attempts to make it work, I have rarely managed to make it
+        work across multiple computers, but it does work locally. I encourage you to take 
+        a look at the source code.`,
+        thumbnail : "./img/games/minesweeper_royale/thumbnail.png",
+        preview : "./img/games/minesweeper_royale/gameplay.png",
+        trailer : null, //"https://www.youtube.com/embed/jb6uOKTxTlc",
+        links : {
+            "GitHub": "https://github.com/Yolwoocle/Minesweeper_Royale",
+        },
+    }, 
+    {
         title : "Octoboom",
-        tagline : "Ping, Pong, Boom",
+        tagline : "Ping, Pong, Boom. Made for a game jam.",
         description : `<b>Octoboom</b> is a game I made with friends for 
         <a href="https://ldjam.com/events/ludum-dare/49">Ludum Dare 49</a> 
         in the span of 3 days. <br>An accident has occurred in the mine and 
@@ -88,19 +108,6 @@ const cards = [
         }
     },
     {
-        title : "Anchors & Miners",
-        tagline : "A small digging game",
-        description : `<b>Anchors & Miners</b> is my third Pico-8 game, and our entry for Ludum Dare 48, following the theme "Deeper and deeper". We went for a simple arcade style digging game inspired by Downwell and Ridiculous Fishing. The game was made in 3 days. As usual, it was a lot of fun!`,
-        thumbnail : "./img/games/anchorsAndMiners/thumbnail3.png",
-        preview : "./img/games/anchorsAndMiners/screennormal.png",
-        trailer: null,
-        links: {
-            "Ludum Dare 48 Submission": "https://ldjam.com/events/ludum-dare/48/anchors-miners",
-            "PICO-8 Forums": "https://www.lexaloffle.com/bbs/?tid=42661",
-            "itch.io": "https://yolwoocle.itch.io/anchorsandminers",
-        }
-    },
-    {
         title : "Pico Dino",
         tagline : "Reimagining Google Chrome's secret game",
         description : `<b>Pico Dino</b> is what came out as I tried to make something simple, but as polished as possible. I really like complexity 
@@ -119,7 +126,7 @@ const cards = [
     }, 
     {
         title : "Chaser Of Dawn",
-        tagline : "A game about looping around a planet",
+        tagline : "A game about looping around a planet. Made for a game jam.",
         description : `<b>Chaser Of Dawn</b> is a game that was made for the Ludum Dare 47 game jam.
         We had 3 days to make a game based on the theme "Stuck in a loop", and we used the Pico-8 engine. The game was inspired by exoplanets that don't rotate and have a very big difference in temperature between their two sides.
         It was a lot of fun and we hope to do more games like this in the future!`,

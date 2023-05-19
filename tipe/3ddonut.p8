@@ -999,7 +999,7 @@ p    more options
 
         local p1, p2, p3 = ve[face[1] ], ve[face[2] ], ve[face[3] ]
         local a = vsub(p2, p1)
-        local b = vsub(p3, p1)
+        local b = vsub(p3, p1) --TODO: remove ? it useless?
 
         local persp = 1.2
         local z1 = p1.z + offsetz

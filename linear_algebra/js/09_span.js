@@ -66,8 +66,8 @@ const seedSpan = (sketch) => {
         iVec = clamp(iVec, 0, spanVectors.length - 1)
         
         // Speed up after some time
-        if (seconds >= 0) {
-            timeBetweenVectors = 0.01
+        if (seconds >= 10) {
+            timeBetweenVectors = 0.7
         }
 
         // Go to next vector & get position in new base

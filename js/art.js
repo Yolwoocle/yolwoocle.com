@@ -19,6 +19,11 @@ let currentCardIndex = 0
 
 const cards = [
     {
+        imageURL : "./img/art/BoxOfMushies.png",
+        title : "Box of Mushies",
+        description : "Made using Blender",
+    },
+    {
         imageURL : "./img/pictures/hxi2_sweat.png",
         title : "HXi&sup2 hoodie",
         description : "Artwork for a school hoodie",

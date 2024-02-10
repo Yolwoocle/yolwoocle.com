@@ -92,6 +92,20 @@ a {
 	justify-content: space-around;
     align-items: center;
 }
+.indexPageContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    width: 80vw;
+	height: 80vh;
+    /* min-width: 1100px; */
+	flex-direction: column;
+	justify-content: space-between;
+    align-items: center;
+}
 
 .titleContainer{
     display: flex;
@@ -166,9 +180,12 @@ a {
     color: #ead4aa;
     user-select: none;
     
+    min-width: 300px;
+    margin: 10px;
+
     text-align: center;
     justify-content: center;
-      align-items: center;
+    align-items: center;
     
     position: relative;
     top: 0;
@@ -249,9 +266,10 @@ a {
 .categoriesContainer{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     
-    width: 70%;
+    width: 100%;
     
     /* border: 2px solid rgb(16, 123, 78) */
 }

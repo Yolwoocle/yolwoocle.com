@@ -53,6 +53,11 @@ h2{
     width: 70%;
 }
 
+
+/* @media (min-width: 900px) {
+    .cardGrid { flex-direction: column }
+} */
+
 .aboutmeCard {
     width: 14em;
     height: 100%;

@@ -30,6 +30,8 @@ const cards = [
         preview : "./img/games/bugscraper/gameplay.gif",
         trailer : null,
         links: {
+            "Official website": "https://bugscraper.net/",
+            "Steam": "https://store.steampowered.com/app/2957130/Bugscraper/",
             "itch.io": "https://yolwoocle.itch.io/bugscraper/",
         }
     }, 

@@ -19,6 +19,23 @@ let currentCardIndex = 0
 
 const cards = [
     {
+        title : "Globs",
+        tagline : "Meet the size-changing Globs in this colorful puzzle game",
+        description : `Meet the size-changing Globs in this colorful and charming puzzle game. 
+        Shrink, grow, push, and move Globs to solve a variety of puzzles. 
+        Discover 24 levels across 4 different worlds.<br>
+        
+        This game was made in 96 hours for the <a href="https://itch.io/jam/gmtk-2024">GMTK Game Jam 2024</a> based on the theme "Built to Scale". 
+        `,
+        thumbnail : "./img/games/globs/thumbnail.png",
+        preview : "./img/games/globs/screenshot.png",
+        trailer : null,
+        links: {
+            "itch.io": "https://yolwoocle.itch.io/globs/",
+            "Github": "https://github.com/ARKANYOTA/gmtk2024/",
+        }
+    }, 
+    {
         title : "Bugscraper",
         tagline : "Rise to the last floor in a pest infected tower",
         description : `Welcome to the bugscraper.<br>

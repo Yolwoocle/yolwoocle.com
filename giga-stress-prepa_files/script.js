@@ -1,13 +1,13 @@
 (function() {
-    const millisecond = 1000000
-      , second = 1000
-      , cent = 100
-      , minute = second * 60
-      , hour = minute * 60
-      , day = hour * 24;
-    const concours = "Apr 15, 2024 08:00:00";
+    const millisecond = 1000000, 
+        second = 1000, 
+        cent = 100, 
+        minute = second * 60, 
+        hour = minute * 60, 
+        day = hour * 24;
+    const concours = "Apr 17, 2025 08:00:00";
     const countDown = new Date(concours).getTime();
-    const daterentree = new Date("Sep 1, 2023 08:00:00").getTime();
+    const daterentree = new Date("Sep 1, 2024 08:00:00").getTime();
     const attenteres = document.getElementById("attenteres");
     const attenterescountdown = document.getElementById("attenterescountdown");
     const resteannee = document.getElementById("resteannee");

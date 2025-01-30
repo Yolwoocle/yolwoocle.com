@@ -153,31 +153,31 @@ const cards = [
         title : "Goomba Love",
         description : "",
     }, 
-    {
-        imageURL : "./img/art/DoodleArtVertical.png",
-        title : "Doodle Art",
-        description : "",
-    }, 
-    {
-        imageURL : "./img/art/voxelArtCactus.jpg",
-        title : "Voxel Cacti",
-        description : "Made using Magicavoxel",
-    },
-    {
-        imageURL : "./img/art/DeepSeaFishV3.png",
-        title : "Deep Sea Fish",
-        description : "2019",
-    },
+    // {
+    //     imageURL : "./img/art/DoodleArtVertical.png",
+    //     title : "Doodle Art",
+    //     description : "",
+    // }, 
+    // {
+    //     imageURL : "./img/art/voxelArtCactus.jpg",
+    //     title : "Voxel Cacti",
+    //     description : "Made using Magicavoxel",
+    // },
+    // {
+    //     imageURL : "./img/art/DeepSeaFishV3.png",
+    //     title : "Deep Sea Fish",
+    //     description : "2019",
+    // },
     {
         imageURL : "./img/art/pigeons_NOT_WATERMARKED_23-oct_V3.png",
         title : "Pigeon chase",
         description : "",
     },
-    {
-        imageURL : "./img/art/marioMakerFanArt.png",
-        title : "Super Mario Maker 2 Fanart",
-        description : "Around 2018",
-    },
+    // {
+    //     imageURL : "./img/art/marioMakerFanArt.png",
+    //     title : "Super Mario Maker 2 Fanart",
+    //     description : "Around 2018",
+    // },
 ]
 
 function getHTMLofCard(card, index) {

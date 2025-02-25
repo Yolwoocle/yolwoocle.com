@@ -19,6 +19,21 @@ let currentCardIndex = 0
 
 const cards = [
     {
+        imageURL : "img/drawings/dino_remake.png",
+        title : "Chrome Dino Remake (2025)",
+        description : "Concept art",
+    },
+    {
+        imageURL : "img/drawings/mario_redraw_scene.png",
+        title : "Super Mario Bros. Redrawn",
+        description : "Concept art",
+    },
+    {
+        imageURL : "img/drawings/assembleenationale.png",
+        title : "Ennemicycle",
+        description : "Mockup for a french politics fighting game",
+    },
+    {
         imageURL : "./img/art/catcliff.png",
         title : "Serenity",
         description : "",

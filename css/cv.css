@@ -207,7 +207,7 @@ p {
     font-weight: var(--font-weight-regular);
     text-wrap: wrap;
 
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .card-bottom-panel > h3 {    
@@ -262,7 +262,7 @@ p {
 /**********************************************/
 
 .max-width-l {
-    width: 160px;
+    width: 220px;
 }
 
 .padding-0 {
@@ -311,6 +311,25 @@ p {
 
 .text-col-4 {
     color: var(--col-prim-4);
+}
+
+.text-size-xxl {
+    font-size: 72px;
+}
+.text-size-xl {
+    font-size: 32px;
+}
+.text-size-l {
+    font-size: 24px;
+}
+.text-size-m {
+    font-size: 20px;
+}
+.text-size-s {
+    font-size: 16px;
+}
+.text-size-xs {
+    font-size: 14px;
 }
 
 .align-item-flex-start {

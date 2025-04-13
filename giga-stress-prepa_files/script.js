@@ -5,7 +5,7 @@
         minute = second * 60, 
         hour = minute * 60, 
         day = hour * 24;
-    const concours = "Apr 17, 2025 08:00:00";
+    const concours = "Apr 14, 2025 08:00:00";
     const countDown = new Date(concours).getTime();
     const daterentree = new Date("Sep 1, 2024 08:00:00").getTime();
     const attenteres = document.getElementById("attenteres");

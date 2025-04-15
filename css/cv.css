@@ -3,7 +3,8 @@
 :root {
     --col-light: #FFFFFF;
 
-    --col-prim-1: #EBF6DE;
+    --col-prim-0: #EBF6DE;
+    --col-prim-1: #DDF0C6;
     --col-prim-2: #A5DAB4;
     --col-prim-3: #487D72;
     --col-prim-4: #284F4D;
@@ -13,6 +14,7 @@
     --font-weight-black: 900;
 
     --paper-width: 840px;
+    /* --paper-width: 1000px; */
     --paper-height: 1190px;
 }
 
@@ -33,7 +35,7 @@ body {
     max-width: var(--paper-width);
     max-height: var(--paper-height);
 
-    background-color: var(--col-prim-1);
+    background-color: var(--col-prim-0);
     
     overflow: scroll;
     resize: horizontal;
@@ -261,8 +263,21 @@ p {
 
 /**********************************************/
 
-.max-width-l {
-    width: 220px;
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-gap-s {
+    gap: 6px;
+}
+
+.min-width-s {
+    min-width: 16px;
+}
+
+.min-width-l {
+    min-width: 120px;
 }
 
 .padding-0 {
@@ -354,6 +369,18 @@ p {
     flex-grow: 2;
 }
 
+.flex-grow-3 {
+    flex-grow: 3;
+}
+
+.flex-grow-4 {
+    flex-grow: 4;
+}
+
 .flex-fixed-width {
     flex-basis: 0;
+}
+
+.flex-no-wrap {
+    flex-wrap: nowrap;
 }

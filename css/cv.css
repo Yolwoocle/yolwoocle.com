@@ -384,3 +384,7 @@ p {
 .flex-no-wrap {
     flex-wrap: nowrap;
 }
+
+.rounded {
+    border-radius: 8px;
+}

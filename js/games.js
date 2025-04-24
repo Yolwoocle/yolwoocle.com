@@ -21,17 +21,21 @@ const cards = [
     {
         title : "Globs",
         tagline : "Meet the size-changing Globs in this colorful puzzle game",
-        description : `Meet the size-changing Globs in this colorful and charming puzzle game. 
-        Shrink, grow, push, and move Globs to solve a variety of puzzles. 
-        Discover 24 levels across 4 different worlds.<br>
+        description : ` Meet the size-changing Globs in this colorful puzzle game. Use the curious properties of their bodies at your advantage to solve a variety of puzzles, all in a expressive pixel art aesthetic and upbeat soundtrack.
+        <br>
+        The puzzles are designed to be approachable, but provide additional optional challenges for players wishing to put their puzzle-solving skills to the test.  
+        Discover 24 levels across 4 different worlds.<br><br>
         
-        This game was made in 96 hours for the <a href="https://itch.io/jam/gmtk-2024">GMTK Game Jam 2024</a> based on the theme "Built to Scale". 
+        This game was originally made in 96 hours for the <a href="https://itch.io/jam/gmtk-2024">GMTK Game Jam 2024</a> based on the theme "Built to Scale", but we continued working on it afterwards. 
         `,
         thumbnail : "./img/games/globs/thumbnail.png",
         preview : "./img/games/globs/screenshot.png",
-        trailer : null,
+        trailer : "https://www.youtube.com/embed/yNs8oIw1vEM?si=EH5uMefULzqRiaOH",
         links: {
-            "itch.io": "https://yolwoocle.itch.io/globs/",
+            "Android": "https://play.google.com/store/apps/details?id=com.yolwoocle.globs",
+            "iOS": "https://apps.apple.com/us/app/globs-a-colorful-puzzle-game/id6738417089",
+            "Steam": "https://s.team/a/3219110",
+            "itch.io": "https://ninesliced.itch.io/globs/",
             "Github": "https://github.com/ARKANYOTA/gmtk2024/",
         }
     }, 

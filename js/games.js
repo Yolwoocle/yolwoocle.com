@@ -24,7 +24,7 @@ const cards = [
         description : ` Meet the size-changing Globs in this colorful puzzle game. Use the curious properties of their bodies at your advantage to solve a variety of puzzles, all in a expressive pixel art aesthetic and upbeat soundtrack.
         <br>
         The puzzles are designed to be approachable, but provide additional optional challenges for players wishing to put their puzzle-solving skills to the test.  
-        Discover 24 levels across 4 different worlds.<br><br>
+        Discover 40 levels across 4 different worlds.<br><br>
         
         This game was originally made in 96 hours for the <a href="https://itch.io/jam/gmtk-2024">GMTK Game Jam 2024</a> based on the theme "Built to Scale", but we continued working on it afterwards. 
         `,

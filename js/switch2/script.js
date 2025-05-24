@@ -7,7 +7,7 @@
         day = hour * 24;
     const concours = "Jun 5, 2025 00:00:00";
     const countDown = new Date(concours).getTime();
-    const daterentree = new Date("Sep 1, 2024 08:00:00").getTime();
+    const daterentree = new Date("Jun 5, 2025 00:00:00").getTime();
     const attenteres = document.getElementById("attenteres");
     const attenterescountdown = document.getElementById("attenterescountdown");
     const resteannee = document.getElementById("resteannee");

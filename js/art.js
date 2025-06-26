@@ -19,6 +19,16 @@ let currentCardIndex = 0
 
 const cards = [
     {
+        imageURL : "img/art/sunnyside_cruise.png",
+        title : "Sunnyside Cruise",
+        description : "",
+    },
+    {
+        imageURL : "img/art/leo_starter_pack_noai_small.png",
+        title : "Yolwoocle Starter Pack",
+        description : "",
+    },
+    {
         imageURL : "img/drawings/dino_remake.png",
         title : "Chrome Dino Remake (2025)",
         description : "Concept art",
@@ -29,7 +39,7 @@ const cards = [
         description : "Concept art",
     },
     {
-        imageURL : "img/drawings/assembleenationale.png",
+        imageURL : "img/drawings/assembleenationale2.png",
         title : "Ennemicycle",
         description : "Mockup for a french politics fighting game",
     },

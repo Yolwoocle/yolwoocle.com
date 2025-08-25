@@ -19,6 +19,11 @@ let currentCardIndex = 0
 
 const cards = [
     {
+        imageURL : "img/art/carboard_city.png",
+        title : "Miniature Kaiju",
+        description : "<a href=\"https://bsky.app/profile/yolwoocle.com/post/3lwvbf3huv22r\">Behind the pixels</a>",
+    },
+    {
         imageURL : "img/art/sunnyside_cruise.png",
         title : "Sunnyside Cruise",
         description : "",
@@ -41,7 +46,7 @@ const cards = [
     {
         imageURL : "img/drawings/assembleenationale2.png",
         title : "Ennemicycle",
-        description : "Mockup for a french politics fighting game",
+        description : "Mockup for a french politics fighting joke game",
     },
     {
         imageURL : "./img/art/catcliff.png",

@@ -19,6 +19,36 @@ let currentCardIndex = 0
 
 const cards = [
     {
+        imageURL : "img/art/love.png",
+        title : "I'll be there for you",
+        description : "",
+    },
+    {
+        imageURL : "img/art/humanditto.png",
+        title : "Human Ditto",
+        description : "",
+    },
+    {
+        imageURL : "img/art/kirbystar.gif",
+        title : "Kirby Star",
+        description : "Inspired by Kiana Mosser",
+    },
+    {
+        imageURL : "img/art/comm_alexis_pfp.png",
+        title : "Alexis",
+        description : "Commission",
+    },
+    {
+        imageURL : "img/art/n7_pull_twitter.png",
+        title : "N7 Hoodie Contest Submission",
+        description : "Unfortunately did not win :(",
+    },
+    {
+        imageURL : "img/art/cat_and_girl.png",
+        title : "Cat and Girl",
+        description : "Commission",
+    },
+    {
         imageURL : "img/art/carboard_city.png",
         title : "Miniature Kaiju",
         description : "<a href=\"https://bsky.app/profile/yolwoocle.com/post/3lwvbf3huv22r\">Behind the pixels</a>",

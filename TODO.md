@@ -1,0 +1,3 @@
+- [ ] add ability to press back to close modal
+- [ ] fix ability to scroll bg in modal
+- [ ] hamburger menu for mobile

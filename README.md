@@ -1,4 +1,4 @@
-# ninesliced.com
+# yolwoocle.com
 
 Site for Yolwoocle: [yolwoocle.com](https://yolwoocle.com)
 

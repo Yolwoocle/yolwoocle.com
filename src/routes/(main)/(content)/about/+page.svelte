@@ -30,7 +30,7 @@
         </div>
         <h1 class="font-black text-8xl pt-6 pb-4">Hi!</h1>
         <p class="text-2xl/10 pb-7">
-            I'm <strong>Léo Bernard</strong>, also known as <strong>Yolwoocle</strong>.<br>
+            I'm <strong>Léo Bernard</strong> (he/him), also known as <strong>Yolwoocle</strong>.<br>
             I'm <span>{age}</span> years old and I'm from France.<br>
             I've loved making things ever since I was a child. <br>
             I believe that the desire to create is deeply human. <br>

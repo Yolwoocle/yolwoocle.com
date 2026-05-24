@@ -479,7 +479,7 @@
 </script>
 
 <div class="w-full flex flex-col items-center">
-	<div class="max-w-215 px-5 text-center text-(--main-very-dark)">
+	<div class="max-w-215 px-1 text-center text-(--main-very-dark)">
 		<h1 class="font-black text-4xl pt-6 pb-4">Games</h1>
 		<div class="flex flex-col gap-3 text-left">
 			<p class="text-xl">

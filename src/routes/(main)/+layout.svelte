@@ -1,5 +1,4 @@
 <script lang="ts">
-	import favicon from '$lib/assets/favicon.svg';
 	import './reset.css';
 	import './app.css';
 	import Navbar from './Navbar.svelte';
@@ -11,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href='/assets/favicon.png' />
 </svelte:head>
 
 

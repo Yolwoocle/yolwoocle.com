@@ -11,6 +11,7 @@
 
 <svelte:head>
 	<link rel="icon" href='/assets/favicon.png' />
+	<title>Yolwoocle</title>
 </svelte:head>
 
 

@@ -31,20 +31,23 @@
         <h1 class="font-black text-8xl pt-6 pb-4">Hi!</h1>
         <p class="text-2xl/10 pb-7">
             I'm <strong>Léo Bernard</strong> (he/him), also known as <strong>Yolwoocle</strong>.<br>
-            I'm <span>{age}</span> years old and I'm from France.<br>
+            I'm <span>{age}</span> years old and I'm from Montpellier, France.<br>
             I've loved making things ever since I was a child. <br>
             I believe that the desire to create is deeply human. <br>
             It's something that brings me joy in my life, <br>    
             And I hope to share this joy to others through my creations. :)
         </p>
         <p class="text-xl/8">
-            I also occasionally enjoy cycling, hiking, baking, improv, and climbing.  
+            I'm currently student at ENSEEIHT (Toulouse) in Computer Science, and in addition to being
+            passionate about video game development, I also enjoy cycling, hiking, baking, 
+            improv, and climbing.  
         </p>
 
         <h1 class="font-black text-6xl pt-10 pb-4">Contact</h1>
         <p class="text-xl/8">
             Here you can find various ways to contact me. <br>
             <strong>Please prioritize email for work or business related enquiries.</strong>  <br>
+            I read every message, but I might not always answer. <br>
         </p>
         <Socials />
         <p class="text-xl pt-10">

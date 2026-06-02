@@ -8,7 +8,13 @@
   const nineslicedMonths =
     (today.getFullYear() - nineslicedStartDate.getFullYear()) * 12 +
     (today.getMonth() - nineslicedStartDate.getMonth());
-  const nineslicedDuration = `${nineslicedMonths} months`;
+  const nineslicedDuration = `${nineslicedMonths}`;
+  
+  const smksStartDate = new Date('2026-05-27');
+  const smksMonths =
+    (today.getFullYear() - smksStartDate.getFullYear()) * 12 +
+    (today.getMonth() - smksStartDate.getMonth());
+  const smksDuration = `${smksMonths}`;
 </script>
 
 <div class="w-full flex flex-col items-center">
@@ -23,15 +29,29 @@
         <h1 class="font-black text-4xl py-6">Experience</h1>
         <div class="flex flex-col gap-3">
             <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">Ninesliced</h3>
+                <h3 class="font-black text-2xl pb-2">Godot Developer</h3>
                 <p class="text-l">
-                    <strong>Toulouse, France</strong>
+                    <strong>SMKS Studios · Remote</strong>
                 </p>
                 <p class="text-l">
-                    Nov 2024 - Present ({nineslicedDuration})
+                    May 2024 - Present ({smksDuration} months)
                 </p>
                 <p class="text-l pt-4">
-                    Co-founder of Ninesliced, a student-run collective of game developers.
+                    Part-time Godot Developer for <a href="https://store.steampowered.com/app/2551790/Tribe_of_the_Accord/" class="card-link">Tribe of the Accord</a>, 
+                    an story-driven action-adventure game about a young huntress on a quest to rescue her father.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
+                <h3 class="font-black text-2xl pb-2">Co-Founder</h3>
+                <p class="text-l">
+                    <strong>Ninesliced · Toulouse, France</strong>
+                </p>
+                <p class="text-l">
+                    Nov 2024 - Present ({nineslicedDuration} months)
+                </p>
+                <p class="text-l pt-4">
+                    Co-founder of Ninesliced, a student-run game development band.
                 </p>
             </div>
 
@@ -59,22 +79,22 @@
                     2025
                 </p>
                 <p class="text-l pt-4">
-                    Worked for various client as a freelance illustrator. 
+                    Worked for various clients as a freelance illustrator. 
                     In particular, worked as an illustrator for <a href="https://store.steampowered.com/app/3238790/Blade_Rush/" class="card-link">Blade Rush</a>'s 
                     promotional artwork.
                 </p>
             </div>
 
             <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <h3 class="font-black text-2xl pb-2">Python Freelancer</h3>
+                <h3 class="font-black text-2xl pb-2">Freelance Python developer</h3>
                 <p class="text-l">
-                    <strong>Remote</strong>
+                    <strong>Toulouse, Freelance</strong>
                 </p>
                 <p class="text-l">
                     Nov 2024 - Jan 2025 (3 months)
                 </p>
                 <p class="text-l pt-4">
-                    Python Discord prototype bot development for a client using Nextcord.
+                    Development of a Discord prototype bot for a client using Nextcord.
                 </p>
             </div>
         </div>
@@ -90,7 +110,7 @@
                     2025 - Present
                 </p>
                 <p class="text-l pt-4">
-                    Engineering Degree, Digital Sciences
+                    Engineering Degree, Computer Science (Sciences du Numérique)
                 </p>
             </div>
 
@@ -103,7 +123,7 @@
                     2023 - 2025
                 </p>
                 <p class="text-l pt-4">
-                    Double Bachelor's Degree in Mathematics and Computer Science
+                    Double Bachelor's Degree in Mathematics and Computer Science (MIDL)
                 </p>
             </div>
 
@@ -149,11 +169,11 @@
                 Conversational, HSK Level 5
             </div>
             <div class="flex flex-row bg-white items-center gap-3 rounded-full px-5 p-2 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <strong>Japanese</strong>
+                <strong>French Sign Language (LSF)</strong>
                 Beginner
             </div>
             <div class="flex flex-row bg-white items-center gap-3 rounded-full px-5 p-2 shadow-[2px_8px_0px_var(--transp-shad)]">
-                <strong>French Sign Language (LSF)</strong>
+                <strong>Japanese</strong>
                 Beginner
             </div>
         </div>

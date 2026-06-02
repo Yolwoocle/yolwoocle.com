@@ -40,9 +40,9 @@
 				The puzzles are designed to be approachable, but provide additional optional challenges for players wishing to put their puzzle-solving skills to the test.  
 				Discover 40 levels across 4 different worlds.<br><br>
 				
-				This game was originally made for the <a href="https://itch.io/jam/gmtk-2024" class="card-link">GMTK Game Jam 2024</a>, but 
+				This game was originally made for the <a href="https://itch.io/jam/gmtk-2024" class="card-link">GMTK Game Jam 2024</a> in a team of 5, and seeing that the game had potential for a full release,
 				we continued working on it afterwards. It was made using Godot. I was responsible for system and 
-				gameplay programming and art. <br><br>
+				gameplay programming, and art. <br><br>
 				`,
 				img : "/assets/images/games/globs/thumbnail.png",
 				imgAlt : "Globs key art",
@@ -150,10 +150,7 @@
 				same minesweeper board, or to be the last one alive. This game is complete with a chat
 				system and a display showing all the player boards. This was my first ever attempt 
 				at networking, using the L&Ouml;VE framework and luasocket. It was a project I made 
-				for school, hence it's not available on itch.io and I didn't advertize it. <br><br>
-				
-				The source code is available on GitHub, but the little documentation I have provided
-				is in French. <br><br>
+				for school, hence I didn't release any executables for it.<br><br>
 				
 				During my attempts to make it work, I have rarely managed to make it
 				work across multiple computers, but it does work locally. I encourage you to take 
@@ -175,13 +172,13 @@
 				description : "A co-op game about building tracks",
 				longDescription : `<b>Derailed!</b> is yet another PICO-8 game I made to challenge myself. 
 				It's a co-op game where you need to communicate with a friend to bring a train to its 
-				station. It's a fan-made demake of Unrailed!. After I made some concept art for a 
+				station. It's a fan-made demake of <a class="card-link" href="https://store.steampowered.com/app/1016920/Unrailed/">Unrailed!</a>. 
+				After I made some concept art for a 
 				PICO-8 demake of this game, I thought it would be fun to actually turn it into a 
 				real thing. I hope that you'll have fun playing it, and maybe you can grab a friend 
 				to try it out.<br><br>
 				
-				The game is unfinished, but it's playable nonetherless. 
-				I don't plan to finish it.`,
+				The game is unfinished and I do not plan to finish it.`,
 				img : "/assets/images/games/derailed/pico-8_unrailed_concept_thumbnail.png",
 				imgAlt : "",
 				carouselImg : "/assets/images/games/derailed/pico-8_unrailed_concept_thumbnail_wide.png",

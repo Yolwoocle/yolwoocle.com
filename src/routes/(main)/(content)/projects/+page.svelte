@@ -21,7 +21,7 @@
 				carouselImgAlt : "",
 				trailer : null,
 				links: [
-					{label: "Website", link: "https://ninesliced.net/"},
+					{label: "Website", link: "https://ninesliced.com/"},
 				]
 			}, 
 		],
@@ -45,7 +45,7 @@
 				carouselImgAlt : "",
 				trailer : null,
 				links: [
-					{label: "Discover experiment", link: "https://yolwoocle.com/linear_algebra/index.html"},
+					{label: "Discover experiment", link: "https://yolwoocle.github.io/legacy/linear_algebra/index.html"},
 				]
 			}, 
 			{

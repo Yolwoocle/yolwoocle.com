@@ -12,6 +12,12 @@
 <svelte:head>
 	<link rel="icon" href='/assets/favicon.png' />
 	<title>Yolwoocle</title>
+
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Yolwoocle">
+	<meta property="og:url" content="https://yolwoocle.com">
+	<meta property="og:image" content="https://yolwoocle.com/assets/images/thumbnail.png">
+	<meta property="og:description" content="French game developer and artist">
 </svelte:head>
 
 

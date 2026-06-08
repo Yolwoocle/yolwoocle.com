@@ -38,7 +38,7 @@
             And I hope to share this joy to others through my creations. :)
         </p>
         <p class="text-xl/8">
-            I'm currently student at ENSEEIHT (Toulouse) in Computer Science, and in addition to being
+            I'm currently a student at ENSEEIHT (Toulouse) in Computer Science, and in addition to being
             passionate about video game development, I also enjoy cycling, hiking, baking, 
             improv, and climbing.  
         </p>

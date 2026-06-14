@@ -34,11 +34,26 @@
                     <strong>SMKS Studios · Remote</strong>
                 </p>
                 <p class="text-l">
-                    May 2024 - Present ({smksDuration} months)
+                    May 2026 - Present ({smksDuration} months)
                 </p>
                 <p class="text-l pt-4">
                     Part-time Godot Developer for <a href="https://store.steampowered.com/app/2551790/Tribe_of_the_Accord/" class="card-link">Tribe of the Accord</a>, 
                     an story-driven action-adventure game about a young huntress on a quest to rescue her father.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-2xl p-4 shadow-[2px_8px_0px_var(--transp-shad)]">
+                <h3 class="font-black text-2xl pb-2">Entrepreneurship Summer Camp</h3>
+                <p class="text-l">
+                    <strong>La Mêlée · Toulouse</strong>
+                </p>
+                <p class="text-l">
+                    June 2026 - July 2026 (1.5 months)
+                </p>
+                <p class="text-l pt-4">
+                    Participant in the 2026 Entrepreneurship Internship Summer Camp, where I developped my
+                    professional activity, met entrepreneurs and leaders, and was guided by mentors for 
+                    my projects.
                 </p>
             </div>
 

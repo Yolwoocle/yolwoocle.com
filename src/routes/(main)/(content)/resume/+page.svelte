@@ -24,15 +24,14 @@
         <h1 class="font-black text-4xl py-6">Experience</h1>
         <div class="flex flex-col gap-3">
             <ResumeCard
-                title="Godot Developer"
-                subtitle="SMKS Studios · Remote"
-                period="June 2026 - August 2026 (3 months)"
-                stickerImg="/assets/images/resume/tota.png"
-                stickerAlt="Tribe of the Accord logo"
+                title="Co-Founder"
+                subtitle="Ninesliced · Toulouse, France"
+                period="Nov 2024 - Present ({nineslicedDuration} months)"
+                stickerImg="/assets/images/resume/ninesliced.png"
+                stickerAlt="Ninesliced logo"
                 stickerRound={true}
             >
-                Part-time Godot Developer for <a href="https://store.steampowered.com/app/2551790/Tribe_of_the_Accord/" class="card-link">Tribe of the Accord</a>, 
-                an story-driven action-adventure game about a young huntress on a quest to rescue her father.
+                Co-founder, developer, and designer at <a href="https://ninesliced.com" class="card-link">Ninesliced</a>, a student-run game development band.
             </ResumeCard>
 
             <ResumeCard
@@ -48,6 +47,18 @@
             </ResumeCard>
 
             <ResumeCard
+                title="Godot Developer"
+                subtitle="SMKS Studios · Remote"
+                period="June 2026 - August 2026 (3 months)"
+                stickerImg="/assets/images/resume/tota.png"
+                stickerAlt="Tribe of the Accord logo"
+                stickerRound={true}
+            >
+                Part-time Godot Developer for <a href="https://store.steampowered.com/app/2551790/Tribe_of_the_Accord/" class="card-link">Tribe of the Accord</a>, 
+                an story-driven action-adventure game about a young huntress on a quest to rescue her father.
+            </ResumeCard>
+
+            <ResumeCard
                 title="Entrepreneurship Summer Camp"
                 subtitle="La Mêlée · Toulouse, France"
                 period="June 2026 - July 2026 (1.5 months)"
@@ -59,17 +70,6 @@
                 <a href="https://lamelee.com/" class="card-link">La Mêlée</a>, where I developped my
                 professional activity, met entrepreneurs and leaders, and was guided by mentors for 
                 my projects.
-            </ResumeCard>
-
-            <ResumeCard
-                title="Co-Founder"
-                subtitle="Ninesliced · Toulouse, France"
-                period="Nov 2024 - Present ({nineslicedDuration} months)"
-                stickerImg="/assets/images/resume/ninesliced.png"
-                stickerAlt="Ninesliced logo"
-                stickerRound={true}
-            >
-                Co-founder, developer, and designer at <a href="https://ninesliced.com" class="card-link">Ninesliced</a>, a student-run game development band.
             </ResumeCard>
 
             <ResumeCard
